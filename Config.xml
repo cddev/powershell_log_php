@@ -6,9 +6,9 @@
 	  <file_log_cache_php><!-- fichier cache log php --></file_log_cache_php> 
 	  <mail_from><!-- email expediteur --></mail_from> 
 	  <mail_to>
-		  <mail><!-- email destinaire --></mail>	 <!-- email destinaire -->
+		  <mail><!-- email destinaire --></mail>	 
 	  </mail_to>
-	  <serveur><!-- Serveur Smtp --></serveur> <!-- Serveur Smtp -->
+	  <serveur><!-- Serveur Smtp --></serveur> 
 	  <text_object_php>NOUVELLES ERREURS PHP SUR {0}</text_object_php> <!-- object du mail, {0} correspond à la position du nom du serveur  -->
 	  <text_content_php>De nouvelles erreurs PHP ont été constaté sur {0},consultez la pièce jointe pour plus d'information.</text_content_php> <!-- contenu du mail, {0} correspond à la position du nom du serveur  -->
 	</php_conf>
@@ -16,8 +16,7 @@
 		<path_log_symf><!-- Dossier log symfony --></path_log_symf> 
 		<path_log_cache_symf><!-- Dossier cache log symfony --></path_log_cache_symf> 
 		<file_log_cache_symf><!-- fichier cache log symfony --></file_log_cache_symf> 
-		<mail_from><!-- email expediteur --></mail_from> <!-- email expediteur -->
-		<mail_to>
+		<mail_from><!-- email expediteur --></mail_from> 
 		  <mail><!-- email destinaire --></mail>	 
 		</mail_to>
 		<filtre>
